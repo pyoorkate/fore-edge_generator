@@ -10,6 +10,11 @@ As an attempt to provide a proofing tool it also reassembles the sliced image an
 for the bottom, top and fore-edge - the verso and recto of each. The recto should be a mirror of the
 verso.
 
+The program tries to centre the image on the trim line, and will fill up to the edge of the bleed and to
+the thickness specified within the safety margin. (At least, that's the theory). I chose to leave the 
+region outside the bleed unprinted to help reduce ink wastage.
+
+Notes:
 This is absolutely provided with no warranty whatsoever. Use it at your own risk.
 
 I have only tested this on Windows 11, do let me know if it has issues on OS X or other platforms (or
