@@ -1,4 +1,8 @@
 # fore-edge_generator
+
+***BUG: The image(s) should currently be mirrored horizontally prior to use in this program. I'll fix
+the bug when I get a chance! ***
+
 A quick and dirty tool to apply fore-edge images to a PDF in preparation for it being sent to print with
 either a press or a print on demand service.
 
