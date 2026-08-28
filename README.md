@@ -1,8 +1,5 @@
 # fore-edge_generator
 
-***BUG: The image(s) should currently be mirrored horizontally prior to use in this program. I'll fix
-the bug when I get a chance! ***
-
 A quick and dirty tool to apply fore-edge images to a PDF in preparation for it being sent to print with
 either a press or a print on demand service.
 
@@ -13,7 +10,7 @@ and should align. The supplied image(s) is(are) scaled / cropped to match the as
 of the book (currently it centers the image on the bottom/top/fore-edge and crops the sides off if
 necessary).
 
-It has some marginal checking to try not to immediately ovewrite things you might care about.
+It has some marginal checking to try not to immediately overwrite things you might care about.
 
 As an attempt to provide a proofing tool it also reassembles the sliced image and will output two images
 for the bottom, top and fore-edge - the verso and recto of each. The recto should be a mirror of the
